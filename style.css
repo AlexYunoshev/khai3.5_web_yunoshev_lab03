@@ -146,7 +146,7 @@ a {
 	background-color: white;
 }
 
-.headerLeft {
+.header-left {
 	width: 538px;
 	height: 130px;
 	background-color: #ff7d21;
@@ -154,7 +154,7 @@ a {
 	border-right: 1px solid #20207e;
 }
 
-.headerRight {
+.header-right {
 	float: right;
 	margin-right: 28px;
 	height: 130px;
@@ -164,29 +164,44 @@ a {
   	padding: 0px;
 }
 
-.headerRightTop {
+.header-right-top {
 	height: 52px;
 	border-bottom: 1px solid #20207e;
 }
 
-.headerRightButtom {
+.header-right-bottom {
 	height: 78px;
 	padding: 0;
 	margin: 0;
 }
 
-.headerLeftTop {
+.header-left-top {
 	height: 34px;
 	border-bottom: 1px solid #20207e;
+	background-color: #20207e;
 }
 
-.headerLeftCenter {
+.header-left-center {
 	height: 79px;
 	border-bottom: 1px solid #20207e;
+
+	font-family: Verdana;
+	font-size: 11px;
+	letter-spacing: 0.08em;
+	color: white;
+	font-weight: 100;
+	margin: 0;
+	padding: 0;
 }
 
-.headerLeftBottom {
+.header-left-bottom {
 	height: 15px;
+	font-family: Verdana;
+	font-size: 11px;
+	letter-spacing: 0.075em;
+	color: white;
+	font-weight: 100;
+	margin-left: 343px;
 }
 
 
@@ -198,10 +213,6 @@ a {
 
 
 
-
-.headerLeftTop {
-	background-color: #20207e;
-}
 
 .HLTlabel {
 	position: absolute;
@@ -234,24 +245,7 @@ a {
 	margin-top: 9px;
 }
 
-.headerLeftBottom {
-	font-family: Verdana;
-	font-size: 11px;
-	letter-spacing: 0.075em;
-	color: white;
-	font-weight: 100;
-	margin-left: 343px;
-}
 
-.headerLeftCenter {
-	font-family: Verdana;
-	font-size: 11px;
-	letter-spacing: 0.08em;
-	color: white;
-	font-weight: 100;
-	margin: 0;
-	padding: 0;
-}
 
 #HLCp1 {
 	position: absolute;
