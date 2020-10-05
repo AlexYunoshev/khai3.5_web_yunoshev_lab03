@@ -6,6 +6,36 @@ body {
 	background-color: white;
 }
 
+p {
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
+
+div {
+	margin: 0px;
+	padding: 0px;
+}
+
+img {
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	margin-top: 0px;
+	margin-left: 12px;
+	position: absolute;
+	color: white;
+	font-family:Verdana;
+	font-size: 11px;
+	font-weight: 900;
+	text-decoration: none;
+	letter-spacing: 0.09em;
+	margin: 0;
+	padding: 0;
+	border-style: none;
+}
 
 #TextBox {
 	width: 148px;
@@ -39,11 +69,6 @@ body {
 	color: white;
 	font-size: 11px;
 	letter-spacing: 0.3px;
-}
-
-img {
-	padding: 0;
-	margin: 0;
 }
 
 #arcHRB {
@@ -116,16 +141,7 @@ img {
 	margin-left: 163px;
 }
 
-p {
-	margin: 0;
-	padding: 0;
-	border-style: none;
-}
 
-div {
-	margin: 0px;
-	padding: 0px;
-}
 
 .body {
 	height: 700px;
@@ -320,15 +336,25 @@ div {
 }
 
 
-#CRTp1, #CRTp3, #CRTp8, #CRTp10, #CRTp12, #CRTp13 {
+#CRTp1, 
+#CRTp3, 
+#CRTp8, 
+#CRTp10, 
+#CRTp12, 
+#CRTp13 {
 	margin-top: 13px;
 }
 
-#CRTp2, #CRTp6, #CRTp14 {
+#CRTp2, 
+#CRTp6, 
+#CRTp14 {
 	margin-top: 1px;
 }
 
-#CRTp4, #CRTp5, #CRTp7, #CRTp15 {
+#CRTp4, 
+#CRTp5, 
+#CRTp7, 
+#CRTp15 {
 	margin-top: 0px;
 }
 
@@ -422,7 +448,12 @@ div {
 	margin-top: 6px;
 }
 
-.hr3, .hr4, .hr5, .hr6, .hr7, .hr8{
+.hr3, 
+.hr4, 
+.hr5, 
+.hr6, 
+.hr7, 
+.hr8{
 	margin: 0;
 	width: 3px;
 	height: 3px;
@@ -470,20 +501,7 @@ div {
 	margin-left: 12px;
 	margin-top: 0px;
 }
-a {
-	margin-top: 0px;
-	margin-left: 12px;
-	position: absolute;
-	color: white;
-	font-family:Verdana;
-	font-size: 11px;
-	font-weight: 900;
-	text-decoration: none;
-	letter-spacing: 0.09em;
-	margin: 0;
-	padding: 0;
-	border-style: none;
-}
+
 
 .footer {
 	width: 170px;
