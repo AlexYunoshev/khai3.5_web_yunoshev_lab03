@@ -45,7 +45,7 @@ a {
 	
 }
 
-#ok {
+#Ok {
 	position: absolute;
 	z-index: 1;
 	margin: 11px 0 0 168px;
@@ -67,12 +67,12 @@ a {
 	
 }
 
-#arcHRB {
+#ArcHeaderRightBottom {
 	position: absolute;
 	margin: 7px 0 0 155px;
 }
 
-.pHRT {
+.p-header-right-top {
 	position: absolute;
 	z-index: 1;
 	font-size: 24px;
@@ -82,10 +82,10 @@ a {
 	color: white;
 
 }
-#HRTqst {
+#HeaderRightTopQuestion {
 		margin: 3px 0px 0px 31px;
 }
-#HRTexcl {
+#HeaderRightTopExclamation {
 		margin: 3px 0px 0px 103px;
 }
 
@@ -95,27 +95,27 @@ a {
 }
 
 
-#arc1HRT {
+#ArcQuestionHeaderRightTop {
 	margin-left: 8px;
 }
 
-#arc2HRT {
+#ArcExclamationHeaderRightTop {
 	margin-left: 77px;
 }
 
-#arc3HRT {
+#ArcMessageHeaderRightTop {
 	margin-left: 147px;
 }
 
 
-#messageHRT {
+#MessagePictureHeaderRightTop {
 	z-index: 1;
 	position: absolute;
 	margin-left: 163px;
 	margin-top: 13px;
 }
 
-.labelHRT {
+.labels-header-right-top {
 	position: absolute;
 	font-family: Arial;
 	font-size: 10px;
@@ -125,15 +125,15 @@ a {
 	letter-spacing: 0.12em;
 }
 
-#labelHRT1 {
+#LabelQuestionHeaderRightTop {
 	margin-left: 29px;
 }
 
-#labelHRT2 {
+#LabelExclamationHeaderRightTop {
 	margin-left: 91px;
 }
 
-#labelHRT3 {
+#LabelMessageHeaderRightTop {
 	margin-left: 163px;
 }
 
