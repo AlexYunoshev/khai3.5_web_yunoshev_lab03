@@ -286,6 +286,9 @@ a {
 	position: absolute;
 	width: 558px;
 	border: 1px solid #20207e;
+	
+	
+	
 	margin-left: 193px;
 	margin-top: 140px;
 } 
@@ -294,8 +297,9 @@ a {
 
 	height: 15px;
 	background-color: #20207e;
-
 }
+
+
 
 .CRTlabel {
 	position: absolute;
@@ -407,10 +411,6 @@ a {
 	border-bottom: 1px solid #20207e;
 }
 
-#Link14 {
-	height: 19px;
-	border-bottom: 1px solid #20207e;
-}
 
 .linkDiv {
 
