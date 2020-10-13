@@ -365,6 +365,11 @@ a {
 	border-bottom: 1px solid #20207e;
 }
 
+.contentRegistration {
+	position: relative;
+	
+}
+
 
 
 #CRTp9 {
@@ -655,4 +660,73 @@ a {
 	padding: 0;
 	margin-top: 219px;
 	margin-left: 6px;
+}
+
+
+#p-name {
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#input-name {
+	margin-left: 20px;
+	margin-top: 8px;
+
+
+}
+
+#p-sex {
+	float: left;
+	margin-top: 7px;
+	margin-left: 5px;
+}
+
+#input-male {
+	margin-top: 10px;
+	margin-left: 22px;	
+}
+
+
+#p-day {
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#input-day {
+	margin-left: 15px;
+	margin-top: 8px;
+}
+
+#p-month {
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#input-month {
+	margin-left: 5px;
+	margin-top: 8px;
+}
+
+
+#p-year {
+	float: left;
+	margin-left: 5px;
+	margin-top: 10px;
+}
+
+#input-year {
+	margin-left: 26px;
+	margin-top: 8px;
+}
+
+
+
+#btn-reg {
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-bottom: 5px;
+	width: 230px;
 }

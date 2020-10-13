@@ -5,13 +5,14 @@
 	<meta charset="UTF-8">
 	<title>Yunoshev_lab2</title>
 	<link rel="stylesheet" href="style.css">
+	<script src="javascript.js"></script>
 </head>
 
 <body>
 	<div class="body">
 
 		<div class="header-left">
-			<a href=""><img src="img/tooth.png" alt="tooth" class="tooth"></a>
+			<a href="index.html"><img src="img/tooth.png" alt="tooth" class="tooth"></a>
 			<div class="header-left-top">
 				<p class="HLTlabel" id="Dental">Dental</p>
 				<img src="img/DentalBg.png" alt="DentalBg" id="DentalBg">
@@ -121,6 +122,46 @@
 			<div class="contentRightTop">
 				<p class="CRTlabel">Регистрация</p>
 			</div>
+
+
+			<div class="contentName">
+				<p id="p-name">Имя: </p>
+				<input type="text" id="input-name">
+			</div>
+
+			<div class="contentSex">
+				<p id="p-sex">Пол: </p>
+				<input type="radio" id="input-male" name="sex" checked="true"> Мужской
+				<input type="radio" id="input-female" name="sex"> Женский
+			</div>
+
+			<div class="contentDateOfBirth">
+				<div>
+					<p id="p-day">День: </p>
+					<input type="text" id="input-day">
+				</div>
+
+				<div>
+					<p id="p-month">Месяц: </p>
+					<input type="text" id="input-month">
+				</div>
+
+				<div>
+					<p id="p-year">Год: </p>
+					<input type="text" id="input-year">
+				</div>
+
+				<button id="btn-reg" onclick="fun1()">Зарегистрироваться</button>
+
+			</div>
+
+
+
+
+
+
+
+
 
 
 		</div>
