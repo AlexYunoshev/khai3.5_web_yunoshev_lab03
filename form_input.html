@@ -93,6 +93,14 @@
 					<a href="index.html" class="linka">Перенаправление</a>
 				</div>
 
+				<div class="linkDiv">
+					<hr class="hr2">
+					<hr class="hr3">
+					<hr class="hr4">
+					<hr class="hr5">
+					<a href="#" class="linka" onclick="anim()">Анимация</a>
+				</div>
+
 
 				<div class="footer">
 					<div class="footerTop">
@@ -136,33 +144,24 @@
 			</div>
 
 			<div class="contentDateOfBirth">
-				<div>
+				<div> 
 					<p id="p-day">День: </p>
-					<input type="text" id="input-day">
+					<input type="number" id="input-day" min="1" max="31">
 				</div>
 
 				<div>
 					<p id="p-month">Месяц: </p>
-					<input type="text" id="input-month">
+					<input type="number" id="input-month" min="1" max="12">
 				</div>
 
 				<div>
 					<p id="p-year">Год: </p>
-					<input type="text" id="input-year">
+					<input type="number" id="input-year" min="1900" max="2020">
 				</div>
 
-				<button id="btn-reg" onclick="fun1()">Зарегистрироваться</button>
+				<button id="btn-reg" onclick="reg()">Зарегистрироваться</button>
 
 			</div>
-
-
-
-
-
-
-
-
-
 
 		</div>
 	</div>
