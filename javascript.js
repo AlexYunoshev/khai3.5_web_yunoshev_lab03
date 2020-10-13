@@ -32,52 +32,40 @@ function anim() {
     document.getElementById('Dental').style.marginLeft = 0;
     document.getElementById('Helth').style.marginLeft = 0;
     document.getElementById('DentalBg').style.marginLeft = 0;
- 
 
-    var timer = setInterval(function(){
-        if (dentalFlag == true && helthFlag == true && dentalbgFlag == true) {
-            clearInterval(timer); 
-            return;
+    var dental = document.getElementById("Dental");
+    var helth = document.getElementById("Helth");
+    var pic = document.getElementById("DentalBg");
+    var pos = 0;
+    var id = setInterval(frame, 5);
+    function frame() {
+        if (dentalFlag && helthFlag && dentalbgFlag) {
+            clearInterval(id);
         }
-        draw();
-    }, 1000); 
+        pos++;
+        if (pos < 277) {
+            dental.style.marginLeft = pos + 'px';
+        }
+        else {
+            dental.style.marginLeft = 277 + 'px';
+            dentalFlag = true;
+        }
 
+        if (pos < 400) {
+            helth.style.marginLeft = pos + 'px';
+        }
+        else {
+            helth.style.marginLeft = 400 + 'px';
+            helthFlag = true;
+        }
 
+        if (pos < 187) {
+            pic.style.marginLeft = pos + 'px';
+        }
+        else {
+            pic.style.marginLeft = 187 + 'px';
+            dentalbgFlag = true;
+        }
+    }
 }
 
-function draw() {
-    var dental = document.getElementById('Dental');
-    var helth = document.getElementById('Helth');
-    var pic = document.getElementById('DentalBg');
-
-    if (dental.style.left < 277){
-        dental.style.left = 1 + 'px';
-    }
-    else {
-        (dental.style.left = 277 + 'px');
-        dentalFlag = true;
-    }
-
-
-
-    if (helth.style.left < 400) {
-        helth.style.left = 1 + 'px';
-    }
-    else {
-        (helth.style.left = 400 + 'px');
-        helthFlag = true;
-    }
-
-
-
-    if (pic.style.left < 187) {
-        pic.style.left = 1 + 'px';
-    }
-    else {
-        (pic.style.left = 187 + 'px');
-        dentalbgFlag = true;
-
-    } 
-    
-
-}
