@@ -1,5 +1,10 @@
 var sec;
 
+function isEmpty(str) {
+    return (!str || 0 === str.length);
+}
+
+
 function reg() {
     var radio=document.getElementsByName('sex');
     var day = document.getElementById('input-day').value;
@@ -10,27 +15,32 @@ function reg() {
     var dob = new Date(year, month, day);
     var dobNow = new Date(today.getFullYear(), dob.getMonth() - 1, dob.getDate());
     var age = today.getFullYear() - dob.getFullYear();
-    var name = document.getElementsByName('input-name');
+    var name = document.getElementById('input-name').value;
 
     if (today < dobNow){
         age = age - 1;
     }
 
-    if (radio[0].checked == true && age < 21 || radio[1].checked == true && age < 18) {
-        alert('Нельзя зарегистрироваться');
-    }
-    else {
-        alert('Регистрация прошла успешно');
-    }
+    if (isEmpty(name) == 1 || isEmpty(day) == 1 || isEmpty(month) == 1 || isEmpty(year) == 1) {
+        alert('НЕ ХВАТАЕТ ДАННЫХ!!!');
+    } 
 
-    
+    else {
+        if (radio[0].checked == true && age < 21 || radio[1].checked == true && age < 18) {
+            alert('Нельзя зарегистрироваться');
+        }
+        else {
+            alert('Регистрация прошла успешно');
+        }
+    }
 }
 
-function jump() {
 
+
+
+function jump() {
     sec = 0;
     setInterval(tick, 1000);
-    
 }
 
 function tick() {
