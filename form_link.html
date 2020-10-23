@@ -8,8 +8,8 @@
 	<script src="javascript.js"></script>
 </head>
 
-<body>
-	<div class="body">
+<body onload="jump()">
+	<div class="body" >
 
 		<div class="header-left">
 			<a href="index.html"><img src="img/tooth.png" alt="tooth" class="tooth"></a>
@@ -128,40 +128,16 @@
 
 		<div class="contentRight">
 			<div class="contentRightTop">
-				<p class="CRTlabel">Регистрация</p>
+				<p class="CRTlabel">Перенаправление</p>
 			</div>
 
 
-			<div class="contentName">
-				<p id="p-name">Имя: </p>
-				<input type="text" id="input-name">
-			</div>
-
-			<div class="contentSex">
-				<p id="p-sex">Пол: </p>
-				<input type="radio" id="input-male" name="sex" checked="true"> Мужской
-				<input type="radio" id="input-female" name="sex"> Женский
-			</div>
-
-			<div class="contentDateOfBirth">
-				<div> 
-					<p id="p-day">День: </p>
-					<input type="number" id="input-day" min="1" max="31">
-				</div>
-
-				<div>
-					<p id="p-month">Месяц: </p>
-					<input type="number" id="input-month" min="1" max="12">
-				</div>
-
-				<div>
-					<p id="p-year">Год: </p>
-					<input type="number" id="input-year" min="1900" max="2020">
-				</div>
-
-				<button id="btn-reg" onclick="reg()">Зарегистрироваться</button>
+			<div id="timer">
+				
 
 			</div>
+
+			
 
 		</div>
 	</div>

@@ -1,6 +1,4 @@
-var dentalFlag = false;
-var helthFlag = false;
-var dentalbgFlag = false;
+var sec;
 
 function reg() {
     var radio=document.getElementsByName('sex');
@@ -28,7 +26,27 @@ function reg() {
     
 }
 
+function jump() {
+
+    sec = 0;
+    setInterval(tick, 1000);
+    
+}
+
+function tick() {
+    sec++;
+    document.getElementById("timer").childNodes[0].nodeValue = sec;
+    if (sec == 3) {
+        window.location.href = 'index.html';
+    }
+}
+
 function anim() {
+
+    var dentalFlag = false;
+    var helthFlag = false;
+    var dentalbgFlag = false;
+
     document.getElementById('Dental').style.marginLeft = 0;
     document.getElementById('Helth').style.marginLeft = 0;
     document.getElementById('DentalBg').style.marginLeft = 0;
