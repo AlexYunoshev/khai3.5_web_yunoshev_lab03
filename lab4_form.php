@@ -20,7 +20,7 @@
 					<hr class="hr6">
 					<hr class="hr7">
 					<hr class="hr8">
-					<a href="index.html" class="linka" id="linka">Главная</a>
+					<a href="lab4_index.php" class="linka" id="linka">Главная</a>
 				</div>
 
 				<div class="linkDiv">
@@ -28,7 +28,7 @@
 					<hr class="hr3">
 					<hr class="hr4">
 					<hr class="hr5">
-					<a href="form_input.html" class="linka">Регистрация</a>
+					<a href="lab4_form.php" class="linka">Регистрация</a>
 				</div>
 
 				<div class="linkDiv">
@@ -36,15 +36,7 @@
 					<hr class="hr3">
 					<hr class="hr4">
 					<hr class="hr5">
-					<a href="form_link.html" class="linka">Перенаправление</a>
-				</div>
-
-				<div class="linkDiv">
-					<hr class="hr2">
-					<hr class="hr3">
-					<hr class="hr4">
-					<hr class="hr5">
-					<a href="#" class="linka" onclick="anim()">Анимация</a>
+					<a href="lab4_methods.php" class="linka">Методы</a>
 				</div>
 
                 <?php include('footer.php');?>
@@ -167,6 +159,4 @@
     </div>
 </body>
 
-
- <?php include('lab4_2.php');?>
 </html>
