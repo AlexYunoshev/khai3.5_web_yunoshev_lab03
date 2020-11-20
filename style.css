@@ -286,9 +286,6 @@ a {
 	position: absolute;
 	width: 558px;
 	border: 1px solid #20207e;
-	
-	
-	
 	margin-left: 193px;
 	margin-top: 140px;
 } 
@@ -741,4 +738,12 @@ a {
 	margin-top: 40px;
 	margin-bottom: 40px;
 	font-size: 100px;
+}
+
+.contentRightBottom {
+	position: absolute;
+	top: 0;
+	left: 0;
+
+	border-bottom: 1px solid #20207e;
 }
