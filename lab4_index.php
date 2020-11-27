@@ -107,25 +107,7 @@
 				</p>
 			</div>
 
-			<div class="contentRightBottom">
-				<p class="CRTp" id="CRTpHead2">
-					NATURAL EXTENSIONS by Benco Dental
-				</p>
-
-				<p class="CRTp" id="CRTp13">
-					Powder-free, non-sterile, latex exam gloves with a textured surface. Copolymer
-				</p>
-
-				<p class="CRTp" id="CRTp14">
-					interior lining allows for quick donning and more durability. pH balanced to help
-				</p>
-
-				<p class="CRTp" id="CRTp15">
-					eliminate skin irritation.
-				</p>
-				
-
-			</div>
+			
 		</div>
 	</div>
 </body>

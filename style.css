@@ -740,10 +740,3 @@ a {
 	font-size: 100px;
 }
 
-.contentRightBottom {
-	position: absolute;
-	top: 0;
-	left: 0;
-
-	border-bottom: 1px solid #20207e;
-}
